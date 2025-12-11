@@ -41,7 +41,7 @@
     <button class="menu-btn" onclick="show('presentation')">Présentation</button>
     <button class="menu-btn" onclick="show('objectifs')">Objectifs</button>
     <button class="menu-btn" onclick="show('infos')">Infos</button>
-    <button class="menu-btn" onclick="show('services')">parlons de moi</button>
+    <button class="menu-btn" onclick="show('services')">Services</button>
     <button class="menu-btn" onclick="show('mission')">Mission</button>
     <button class="menu-btn" onclick="show('valeurs')">Date Stage</button>
     <button class="menu-btn" onclick="show('roadmap')">Contact</button>
@@ -51,8 +51,12 @@
 
     <div class="hero-card" id="presentation">
       <h1>Présentation — Qui je suis</h1>
-      <p>Je m'appelle Claude Hue, j'ai 15 ans et je suis en 2nde Bac pro CIEL au lycée Pierre-Émile Martin à Bourges.</p>
-      <p>Je veux travailler dans la cybersécurité et je prévois de faire un BTS pour me spécialiser.</p>
+    <div style="display:flex; align-items:center; justify-content:space-between;">
+        <div>
+            <p>Je m'appelle Claude Hue, j'ai 15 ans et je suis en 2nde Bac pro CIEL au lycée Pierre-Émile Martin à Bourges.</p>
+            <p>Je veux travailler dans la cybersécurité et je prévois de faire un BTS pour me spécialiser.</p>
+        </div>
+        <img src="logo.png.png" alt="Logo" style="width:120px; height:auto; margin-left:20px; filter:drop-shadow(0 0 8px #00aaff);">
     </div>
 
     <div class="grid">
@@ -102,3 +106,4 @@ function show(id){
 </script>
 </body>
 </html>
+
